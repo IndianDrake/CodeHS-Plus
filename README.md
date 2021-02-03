@@ -1,5 +1,5 @@
 # CodeHS Plus
-CodeHS Plus v0.1.1 | (c) https://github.com/Viper5077
+CodeHS Plus v0.1.1 | (c) https://github.com/Viper5077 <br>
 FOR EDUCATIONAL/LEARNING PURPOSES ONLY
 
 Developer(s) of this script are in no way responsible for anything that happens to any user using this script.
@@ -30,5 +30,5 @@ Developer(s) assume no liability and are not responsible for any misuse or damag
  - Auto Typer for solutions
 
 # Feedback, Suggestions, Support
-Discord will be the best way to contact me.
+Discord will be the best way to contact me. <br>
 Guild: https://discord.gg/gNTmBrdyAv
