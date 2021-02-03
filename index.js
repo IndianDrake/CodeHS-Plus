@@ -11,9 +11,9 @@ var url, id, solutionCode;
 
 function inject() {
     if (document.getElementById("solutionCode") == null) {
-        if (document.querySelectorAll('[data-item-id]')[0] != null) {
+        if (document.querySelectorAll("[data-item-id]")[0] != null) {
             var xhr = new XMLHttpRequest();
-            id = document.querySelectorAll('[data-item-id]')[0].getAttribute("data-item-id")
+            id = document.querySelectorAll("[data-item-id]")[0].getAttribute("data-item-id")
             url = `https://codehs.com/editor/ajax/get_solution_code?itemID=${id}`;
             xhr.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
@@ -26,7 +26,7 @@ function inject() {
             solutionCode = "CodeHS Plus only supports coding assignments. \nCodeHS Plus does NOT support quizzes, FRQs, and other assignement types\n\nIf you believe this is an error, please email c.ViperDevelopment@gmail.com\nor join the discord (https://discord.gg/gNTmBrdyAv)"
         }
         var style = document.createElement("STYLE");
-        style.type = 'text/css';
+        style.type = "text/css";
         style.innerText = `
         #container {
             width: 50%;
