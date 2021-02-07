@@ -1,10 +1,4 @@
 # CodeHS Plus
-CodeHS Plus v0.1.1 | (c) https://github.com/Viper5077 <br>
-FOR EDUCATIONAL/LEARNING PURPOSES ONLY
-
-Developer(s) of this script are in no way responsible for anything that happens to any user using this script.
-
-Developer(s) assume no liability and are not responsible for any misuse or damage caused by this script.
 
 **Chrome Extension**: https://chrome.google.com/webstore/detail/codehs-plus/emlcjbgfjabdpbpgjlpbpcilaklbjjnb
 
