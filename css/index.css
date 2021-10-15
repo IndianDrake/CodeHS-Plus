@@ -1,0 +1,208 @@
+#modal {
+  width: 70%;
+  height: 75%;
+  background-color: white;
+  z-index: 999;
+  position: fixed;
+  left: 15%;
+  top: 10%;
+  padding: 5rem;
+  white-space: pre;
+  overflow: scroll;
+  border-radius: 5px;
+}
+
+#modal::-webkit-scrollbar {
+  display: none;
+}
+
+#blur {
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 998;
+  background-color: #363C49;
+}
+
+#solutionCodeDiv {
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  top: 0%;
+  margin-top: -2rem;
+}
+
+#filesContainer, #menuContainer {
+  padding-top: 5rem;
+  padding-right: 0px;
+  padding-bottom: 5rem;
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  top: 10%;
+  width: 15%;
+  height: 75%;
+}
+
+#filesContainer {
+  left: 15%;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#menuContainer {
+  left: 70%;
+  border-radius: 0px 5px 5px 0px;
+}
+
+#detectedFiles {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #27a9e1;
+  color: white;
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 0px 0px 0px 5px;
+}
+
+#filesTitle {
+  position: absolute;
+  top: 5%;
+}
+
+.title {
+  font-weight: 200;
+  color: #555;
+  letter-spacing: 1px;
+}
+
+.solutionFile {
+  width: 80%;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: transparent;
+  border-style: solid;
+  background-color: white;
+  height: fit-content;
+  padding: 10px;
+  margin-bottom: 20px;
+  transition-duration: .5s;
+}
+
+.solutionFile:hover {
+  border-color: #555;
+}
+
+.spacer {
+  background-color: #f2f2f2;
+  border: none;
+}
+
+#menuContainer>div {
+  width: 80%;
+  border-radius: 5px;
+  background-color: white;
+  height: fit-content;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+  transition-duration: .5s;
+}
+
+#menuContainer>div>input, #configureContainer>input {
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  color: #333;
+  padding: 5px;
+  margin-top: 5px;
+  border-color: #f2f2f2;
+}
+
+#menuContainer>div>button, #menuContainer>button, #configureContainer>button, #openBtnContainer>span>button {
+  width: 100%;
+  background-color: #27a9e1;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition-duration: .5s;
+}
+
+#menuContainer>div>button:hover, #menuContainer>button, #configureContainer>button:hover, #openBtnContainer>span>button:hover {
+  filter: brightness(90%);
+}
+
+#configureContainer {
+  width: 40%;
+  height: fit-content;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  position: fixed;
+  left: 30%;
+  top: 15%;
+  background-color: white;
+  border-radius: 5px;
+  display: none;
+  z-index: 1001;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#configureContainer>input, #configureContainer>button {
+  width: 50%;
+}
+
+#controlsContainer {
+  position: absolute;
+  bottom: 0px;
+}
+
+#controlsContainer>button {
+  padding: 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+.tooltiptext {
+  width: 200%;
+  background-color: #28384a;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px;
+  margin-top: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.circle {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 4px solid red;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
