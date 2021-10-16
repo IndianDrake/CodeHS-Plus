@@ -1,4 +1,4 @@
-/*! CodeHS Plus v1.2.0 | (c) https://github.com/Viper5077 */
+/*! CodeHS Plus v1.2.0 | (c) https://github.com/Siddharthmr */
 
 /*
 FOR EDUCATIONAL/LEARNING PURPOSES ONLY
