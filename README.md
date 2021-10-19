@@ -18,8 +18,6 @@ A: I will update it when I have time, if possible. In the meantime you can ask y
 A: If you have a school device, you may need to use the bookmarklet version. Join the Discord(https://discord.gg/ByGuBqBNuD) if you encounter issues with the extension.<br>
 **Q: Can my teacher see that I copy/pasted code?**<br>
 A: Not if you use the paste/quick paste buttons. However, teachers may recognize these solutions from CodeHS. Use this extension at your own risk.<br>
- **Q: Why was this removed from the Chrome Web Store?**<br>
- A: CodeHS filled a DMCA removal request for allegedly "facilitating plagiarism/cheating" and that "CodeHS solutions are meant to be accessible only to verified teachers, and use by students is not authorized and is a violation of our terms of use." This is not true, CodeHS Plus does not tolerate cheating, this extension is made to only be used for educational/learning purposes. Additionally, all the solutions are available to students on the website itself, the solution code API is also available to everyone. This extension only provides what is already on the website. 
  
 # Contact
 Best way to contact me is on Discord. Server link: https://discord.gg/ByGuBqBNuD <br>
